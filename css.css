@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#000;
+    min-height: 100vh;
+    background-image: url(./Images/Space.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*roct test  */
+.roct{
+    width:70px;
+    height: 80px;
+    position: relative;
+}
+.roct img{
+    width:70px;
+    height: 80px; 
+    transition: 1s; 
+}
+.roct img:nth-child(2){
+    width:20px;
+    height: 20px;
+    position: relative;
+    bottom: 80px;
+    left:50%;
+    transform: translateX(-50%);
+    opacity: 0;
+} 
+
+
+
+
+
+
